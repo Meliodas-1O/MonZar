@@ -1,0 +1,7 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["dom", "es5", "scripthost", "es2021.promise"]
+  }
+}
